@@ -30,7 +30,7 @@ This project was built to improve visuals, input control, and gameplay flow.
 ## 🕹 Controls
 
 | Action | Key | Platform |
-|:--|:--|
+|:--|:--|:--|
 | Mouse | Drag to slice fruits | PC |
 | Touchscreen | Swipe with your finger to slice fruits | Android |
 

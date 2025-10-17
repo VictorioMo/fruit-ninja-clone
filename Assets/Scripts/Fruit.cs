@@ -5,14 +5,6 @@ public class Fruit : MonoBehaviour
 {
     public GameObject slicedFruitPrefab;
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
-        {
-            CreateSlicedFruit();
-        }
-    }
-
     public void CreateSlicedFruit()
     {
         GameObject slicedFruit = Instantiate(slicedFruitPrefab, transform.position, transform.rotation);
@@ -24,6 +16,10 @@ public class Fruit : MonoBehaviour
             slice.transform.rotation = UnityEngine.Random.rotation;
             slice.AddExplosionForce(UnityEngine.Random.Range(500, 1000), transform.position, 5f);
         }
+
+#pragma warning disable CS0618 // Type or member is obsolete
+        FindObjectOfType<SoundManager>().PlaySound_FruitSlice();
+#pragma warning restore CS0618 // Type or member is obsolete
 
         IncreaseScore();
 

@@ -21,7 +21,7 @@ This project was built to improve visuals, input control, and gameplay flow.
 - Applied collision detection with trail slicing effect  
 - Handled mouse/touch input for gesture-like controls  
 - Managed score tracking and game over logic
-- Added particle effects and audio feedback for slicing (not yet)
+- Added particle effects and audio feedback for slicing (particles remaining)
 - Designed UI transitions (game over screen)  
 
 
@@ -56,6 +56,9 @@ This project was built to improve visuals, input control, and gameplay flow.
 ## 🧾 License
 
 This project is part of my **C# Complete Masterclass** learning repository.  
-You’re free to explore, learn, and reuse for educational purposes.  
+You’re free to explore, learn, and reuse for educational purposes.
 
+## 🧾 3rd Party License
 
+Fruit Slash Sounds - Impacts_Slushy_Orange_002.wav by duckduckpony -- https://freesound.org/s/204041/ -- License: Attribution 4.0
+Bomb Sound - Small boom by AceOfSpadesProduc100 -- https://freesound.org/s/341626/ -- License: Attribution 4.0

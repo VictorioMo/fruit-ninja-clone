@@ -9,6 +9,10 @@ public class Bomb : MonoBehaviour
         if (b != null)
         {
 #pragma warning disable CS0618 // Type or member is obsolete
+            FindObjectOfType<SoundManager>().PlaySound_BombExplosion();
+#pragma warning restore CS0618 // Type or member is obsolete
+
+#pragma warning disable CS0618 // Type or member is obsolete
             FindObjectOfType<GameManager>().BombHit();
 #pragma warning restore CS0618 // Type or member is obsolete
         }

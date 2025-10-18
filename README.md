@@ -6,7 +6,7 @@ This project was built to improve visuals, input control, and gameplay flow.
   
 ---
   
-[Download the apk here (click)](Build/)  
+[Download the apk here (click)](/PublicBuild/)  
   
 ---
   

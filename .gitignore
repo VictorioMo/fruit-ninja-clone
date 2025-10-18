@@ -68,7 +68,6 @@ sysinfo.txt
 mono_crash.*
 
 # Builds
-*.apk
 *.aab
 *.unitypackage
 *.unitypackage.meta
@@ -101,3 +100,6 @@ InitTestScene*.unity*
 
 # Unity tutorial info (safe to ignore)
 [Aa]ssets/TutorialInfo/
+
+# Media files
+*.mp4
